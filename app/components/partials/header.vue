@@ -1,6 +1,6 @@
 <template>
   <header class="flex items-center py-4 md:py-8">
-    <div class="header__logo">
+    <div class="nav header__logo">
       <nuxt-link to="/">
         <img :src="logo" alt="Logo" />
       </nuxt-link>
@@ -47,6 +47,10 @@ export default class Header extends Vue {
       color: $bluise;
       @apply font-bold;
     }
+  }
+  img {
+    height: 40px;
+    width: auto;
   }
 }
 </style>

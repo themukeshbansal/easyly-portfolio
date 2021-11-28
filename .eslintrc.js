@@ -19,7 +19,7 @@ module.exports = {
     'prettier/vue',
     'prettier/@typescript-eslint',
   ],
-  ignorePatterns: ['config.js'],
+  ignorePatterns: ['tailwind.config.js'],
   plugins: ['@typescript-eslint', 'vue-a11y', 'prettier', 'vue'],
   // add your custom rules here
   rules: {
